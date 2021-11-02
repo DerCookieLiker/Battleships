@@ -64,10 +64,17 @@ namespace bs{
 
     void Ship::setShipType(ShipTypes shipType){
         this->shipType = shipType;
-        this->shipSize = getShipSize(shipType);
+        this->setSize(getShipSize(shipType));
     }
     void Ship::setSize(int shipSize){
+        bool* temp = new bool[shipSize];
+        for(int i = 0; i < this->shipSize; i++){
+            temp[i] = this->destroyedParts[i];
+        }
         this->shipSize = shipSize;
+
+        delete [] this->destroyedParts;
+        this->destroyedParts = temp;
     }
     void Ship::setX(int x){
         this->x = x;

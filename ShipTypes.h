@@ -7,7 +7,8 @@ namespace bs{
             Battleship,
             Destroyer,
             Submarine,
-            PatrolBoat
+            PatrolBoat,
+            Empty
     };
 
     int getShipSize(ShipTypes st);

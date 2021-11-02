@@ -11,6 +11,8 @@ namespace bs{
             Grid(const Grid& grid);
             ~Grid();
 
+            void setShip(int x, int y, ShipTypes shipType);
+
             Grid& operator=(const Grid& grid);
             friend std::ostream& operator<<(std::ostream& os, const Grid& grid);
         private:

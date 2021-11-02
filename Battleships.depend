@@ -16,3 +16,37 @@
 1635624693 source:c:\users\gabri\documents\schule\pos\cpp\battleships\shiptypes.cpp
 	"ShipTypes.h"
 
+1635852270 source:c:\users\gabri\documents\workspace\cpp\battleships\ship.cpp
+	"Ship.h"
+
+1635621486 c:\users\gabri\documents\workspace\cpp\battleships\ship.h
+	"ShipTypes.h"
+	<iostream>
+
+1635851739 c:\users\gabri\documents\workspace\cpp\battleships\shiptypes.h
+	<string>
+
+1635851812 source:c:\users\gabri\documents\workspace\cpp\battleships\shiptypes.cpp
+	"ShipTypes.h"
+
+1635852555 source:c:\users\gabri\documents\workspace\cpp\battleships\main.cpp
+	<iostream>
+	"Ship.h"
+	"Grid.h"
+
+1631792440 source:c:\users\gabri\documents\workspace\cpp\battleships\myconio.cpp
+	<windows.h>
+	<cstdio>
+	<cstdlib>
+	"myconio.h"
+
+1631792440 c:\users\gabri\documents\workspace\cpp\battleships\myconio.h
+
+1635852492 source:c:\users\gabri\documents\workspace\cpp\battleships\grid.cpp
+	"Grid.h"
+
+1635852343 c:\users\gabri\documents\workspace\cpp\battleships\grid.h
+	"Ship.h"
+	"ShipTypes.h"
+	<iostream>
+

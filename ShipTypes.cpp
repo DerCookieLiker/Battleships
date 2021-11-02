@@ -14,6 +14,8 @@ int getShipSize(ShipTypes st){
             return 3;
         case bs::ShipTypes::PatrolBoat:
             return 2;
+        case bs::ShipTypes::Empty:
+            return 0;
         }
         return -1;
     }
@@ -29,6 +31,8 @@ int getShipSize(ShipTypes st){
             return "Submarine";
         case bs::ShipTypes::PatrolBoat:
             return "Patrol Boat";
+        case bs::ShipTypes::Empty:
+            return "Empty";
         }
         return "Not Found";
     }
