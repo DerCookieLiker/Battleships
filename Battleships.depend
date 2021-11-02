@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1635624953 source:c:\users\gabri\documents\schule\pos\cpp\battleships\main.cpp
+	<iostream>
+	"Ship.h"
+
+1635625153 source:c:\users\gabri\documents\schule\pos\cpp\battleships\ship.cpp
+	"Ship.h"
+
+1635625086 c:\users\gabri\documents\schule\pos\cpp\battleships\ship.h
+	"ShipTypes.h"
+	<iostream>
+
+1635624688 c:\users\gabri\documents\schule\pos\cpp\battleships\shiptypes.h
+	<string>
+
+1635624693 source:c:\users\gabri\documents\schule\pos\cpp\battleships\shiptypes.cpp
+	"ShipTypes.h"
+
